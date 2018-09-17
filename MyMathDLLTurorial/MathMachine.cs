@@ -25,5 +25,28 @@ namespace MyMathDLLTurorial
         {
             return a + b + c;
         }
+
+        /// <summary>
+        /// Returns the result of integer b subracted from integer a
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public int subract(int a, int b)
+        {
+            return a - b;
+        }
+
+        /// <summary>
+        /// Returns the result of integers b and c subracted from integer a
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns></returns>
+        public int subract(int a, int b, int c)
+        {
+            return a - (b + c);
+        }
     }
 }
