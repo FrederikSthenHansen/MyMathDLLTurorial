@@ -79,5 +79,13 @@ namespace MyMathTester
             testMathResult = testMath.multiply(-7, -9);
             Assert.IsTrue(testMathResult == 63);
         }
+
+        [TestMethod]
+        public void dividetest()
+        {
+            double testMathResultdouble = testMath.divide(3, 2);
+            Assert.AreEqual(testMathResultdouble,1.5);
+
+        }
     }
 }
