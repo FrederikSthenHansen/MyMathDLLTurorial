@@ -21,6 +21,13 @@ namespace MyMathDLLTurorial
             return a + b;
         }
 
+        /// <summary>
+        /// Adds three different integers
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns>integer</returns>
         public int Add(int a, int b, int c)
         {
             return a + b + c;
