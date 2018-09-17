@@ -79,5 +79,12 @@ namespace MyMathTester
             testMathResult = testMath.multiply(-7, -9);
             Assert.IsTrue(testMathResult == 63);
         }
+
+        [TestMethod]
+        public void MultiplyTestTwoPositiveAndANegative()
+        {
+            testMathResult = testMath.multiply(5, 6, -3);
+            Assert.IsTrue(testMathResult == -90);
+        }
     }
 }

@@ -78,7 +78,7 @@ namespace MyMathDLLTurorial
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int divide(int a, int b)
+        public double divide(double a, double b)
         {
             return a / b;
         }
