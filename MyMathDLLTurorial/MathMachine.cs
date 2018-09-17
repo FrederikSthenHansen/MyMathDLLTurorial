@@ -48,5 +48,16 @@ namespace MyMathDLLTurorial
         {
             return a - (b + c);
         }
+
+        /// <summary>
+        /// returns the result of int a multiplied by int b
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public int multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
