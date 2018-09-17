@@ -23,5 +23,12 @@ namespace MyMathTester
             testMathResult = testMath.Add(-2, -4);
             Assert.IsTrue(testMathResult==-6);
         }
+
+        [TestMethod]
+        public void addTestPositiveAndNegative()
+        {
+            testMathResult = testMath.Add(5, -7);
+            Assert.IsTrue(testMathResult == -2);
+        }
     }
 }
