@@ -81,11 +81,19 @@ namespace MyMathTester
         }
 
         [TestMethod]
+        public void MultiplyTestOnePositiveOneNegative()
+        {
+            testMathResult = testMath.multiply(4, -10);
+            Assert.AreEqual(testMathResult,-40);
+        }
+
+        [TestMethod]
         public void MultiplyTestTwoPositiveAndANegative()
         {
             testMathResult = testMath.Multiply(5, 6, -3);
             Assert.IsTrue(testMathResult == -90);
         }
+        
 
         [TestMethod]
         public void dividetest()
