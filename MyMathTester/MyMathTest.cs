@@ -83,7 +83,7 @@ namespace MyMathTester
         [TestMethod]
         public void MultiplyTestOnePositiveOneNegative()
         {
-            testMathResult = testMath.multiply(4, -10);
+            testMathResult = testMath.Multiply(4, -10);
             Assert.AreEqual(testMathResult,-40);
         }
 
@@ -96,7 +96,7 @@ namespace MyMathTester
         
 
         [TestMethod]
-        public void dividetest()
+        public void Dividetest()
         {
             double testMathResultdouble = testMath.Divide(3, 2);
             Assert.AreEqual(testMathResultdouble,1.5);
