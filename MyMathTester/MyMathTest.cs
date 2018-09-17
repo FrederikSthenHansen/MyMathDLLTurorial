@@ -102,5 +102,13 @@ namespace MyMathTester
             Assert.AreEqual(testMathResultdouble,1.5);
                 
         }
+
+        [TestMethod]
+        public void DivideTestTwoNegativeAndAPositive()
+        {
+            double testMathResultdouble = testMath.Divide(-8, -4, 2);
+            Assert.AreEqual(testMathResultdouble, 1);
+
+        }
     }
 }
