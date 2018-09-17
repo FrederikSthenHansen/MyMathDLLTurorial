@@ -51,5 +51,33 @@ namespace MyMathTester
             testMathResult = testMath.subract(7, 9);
             Assert.IsTrue(testMathResult == -2);
         }
+
+        [TestMethod]
+        public void SubstractTestNegative()
+        {
+            testMathResult = testMath.subract(-13, -7);
+            Assert.IsTrue(testMathResult == -6);
+        }
+
+        [TestMethod]
+        public void SubstractTestSameNegative()
+        {
+            testMathResult = testMath.subract(-6, -6);
+            Assert.IsTrue(testMathResult == 0);
+        }
+
+        [TestMethod]
+        public void MultiplyTest()
+        {
+            testMathResult = testMath.multiply(8, 5);
+            Assert.IsTrue(testMathResult == 40);
+        }
+
+        [TestMethod]
+        public void MultiplyTestTwoNegative()
+        {
+            testMathResult = testMath.multiply(-7, -9);
+            Assert.IsTrue(testMathResult == 63);
+        }
     }
 }
