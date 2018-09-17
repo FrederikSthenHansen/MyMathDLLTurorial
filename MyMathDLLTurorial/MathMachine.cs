@@ -59,5 +59,28 @@ namespace MyMathDLLTurorial
         {
             return a * b;
         }
+
+        /// <summary>
+        /// returns the result of int a multiplied by int b and int c
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns></returns>
+        public int multiply(int a, int b, int c)
+        {
+            return a * b * c;
+        }
+
+        /// <summary>
+        /// returns the result of int a divided by int b
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public int divide(int a, int b)
+        {
+            return a / b;
+        }
     }
 }
