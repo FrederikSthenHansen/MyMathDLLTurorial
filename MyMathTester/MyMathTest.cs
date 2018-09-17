@@ -44,7 +44,7 @@ namespace MyMathTester
             testMathResult = testMath.Add(10147, -1991, 2018);
             Assert.IsTrue(testMathResult == 10174);
         }
-
+        
         [TestMethod]
         public void SubstractTest()
         {
