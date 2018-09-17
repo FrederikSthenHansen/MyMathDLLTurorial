@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MyMathDLLTurorial
-{
+{/// <summary>
+/// Non-static class with Add, Subtract, Multiply and Divide methods. Each metod can take up to 3 int values
+/// </summary>
     public class MathMachine
         
     {
