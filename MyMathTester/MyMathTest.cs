@@ -86,5 +86,13 @@ namespace MyMathTester
             testMathResult = testMath.multiply(5, 6, -3);
             Assert.IsTrue(testMathResult == -90);
         }
+
+        [TestMethod]
+        public void dividetest()
+        {
+            double testMathResultdouble = testMath.divide(3, 2);
+            Assert.AreEqual(testMathResultdouble,1.5);
+                
+        }
     }
 }
