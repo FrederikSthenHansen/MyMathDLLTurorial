@@ -48,35 +48,35 @@ namespace MyMathTester
         [TestMethod]
         public void SubstractTest()
         {
-            testMathResult = testMath.subract(7, 9);
+            testMathResult = testMath.Subract(7, 9);
             Assert.IsTrue(testMathResult == -2);
         }
 
         [TestMethod]
         public void SubstractTestNegative()
         {
-            testMathResult = testMath.subract(-13, -7);
+            testMathResult = testMath.Subract(-13, -7);
             Assert.IsTrue(testMathResult == -6);
         }
 
         [TestMethod]
         public void SubstractTestSameNegative()
         {
-            testMathResult = testMath.subract(-6, -6);
+            testMathResult = testMath.Subract(-6, -6);
             Assert.IsTrue(testMathResult == 0);
         }
 
         [TestMethod]
         public void MultiplyTest()
         {
-            testMathResult = testMath.multiply(8, 5);
+            testMathResult = testMath.Multiply(8, 5);
             Assert.IsTrue(testMathResult == 40);
         }
 
         [TestMethod]
         public void MultiplyTestTwoNegative()
         {
-            testMathResult = testMath.multiply(-7, -9);
+            testMathResult = testMath.Multiply(-7, -9);
             Assert.IsTrue(testMathResult == 63);
         }
 
@@ -90,7 +90,7 @@ namespace MyMathTester
         [TestMethod]
         public void MultiplyTestTwoPositiveAndANegative()
         {
-            testMathResult = testMath.multiply(5, 6, -3);
+            testMathResult = testMath.Multiply(5, 6, -3);
             Assert.IsTrue(testMathResult == -90);
         }
         
@@ -98,7 +98,7 @@ namespace MyMathTester
         [TestMethod]
         public void dividetest()
         {
-            double testMathResultdouble = testMath.divide(3, 2);
+            double testMathResultdouble = testMath.Divide(3, 2);
             Assert.AreEqual(testMathResultdouble,1.5);
                 
         }

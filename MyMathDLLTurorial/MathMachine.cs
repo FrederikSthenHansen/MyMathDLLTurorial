@@ -32,7 +32,7 @@ namespace MyMathDLLTurorial
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int subract(int a, int b)
+        public int Subract(int a, int b)
         {
             return a - b;
         }
@@ -44,7 +44,7 @@ namespace MyMathDLLTurorial
         /// <param name="b"></param>
         /// <param name="c"></param>
         /// <returns></returns>
-        public int subract(int a, int b, int c)
+        public int Subract(int a, int b, int c)
         {
             return a - (b + c);
         }
@@ -55,7 +55,7 @@ namespace MyMathDLLTurorial
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int multiply(int a, int b)
+        public int Multiply(int a, int b)
         {
             return a * b;
         }
@@ -67,7 +67,7 @@ namespace MyMathDLLTurorial
         /// <param name="b"></param>
         /// <param name="c"></param>
         /// <returns></returns>
-        public int multiply(int a, int b, int c)
+        public int Multiply(int a, int b, int c)
         {
             return a * b * c;
         }
@@ -78,7 +78,7 @@ namespace MyMathDLLTurorial
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public double divide(int a, int b)
+        public double Divide(int a, int b)
         {
             double da = a;
             double db = b;
@@ -92,7 +92,7 @@ namespace MyMathDLLTurorial
         /// <param name="b"></param>
         /// <param name="c"></param>
         /// <returns></returns>
-        public double divide(int a, int b, int c)
+        public double Divide(int a, int b, int c)
         {
             double da = a;
             double db = b;
